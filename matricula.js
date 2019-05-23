@@ -31,15 +31,15 @@ if(argv.estado == 'inscribir'){
     switch (argv.id ) {
         case 1:
             texto = 'El estudiante ' + argv.nom + '\n' +
-            'Prematriculado a ' +curso1.curso.Java.nombre+'\n'+' Duración: '+curso1.curso.Java.duracion+'\n'+' Valor: '+curso1.curso.Java.valor;
+            'ha sido Prematriculado a ' +curso1.curso.Java.nombre+'\n'+' Duración: '+curso1.curso.Java.duracion+'\n'+' Valor: '+curso1.curso.Java.valor;
             break;
         case 2:
             texto = 'El estudiante ' + argv.nom + '\n' +
-                    'Matriculado a ' +curso1.curso.Php.nombre+'\n'+' Duración: '+curso1.curso.Php.duracion+'\n'+' Valor: '+curso1.curso.Php.valor;        
+            'ha sido Prematriculado a ' +curso1.curso.Php.nombre+'\n'+' Duración: '+curso1.curso.Php.duracion+'\n'+' Valor: '+curso1.curso.Php.valor;        
             break;
         case 3:
             texto = 'El estudiante ' + argv.nom + '\n' +
-            'Matriculado a ' +curso1.curso.Python.nombre+'\n'+' Duración: '+curso1.curso.Python.duracion+'\n'+' Valor: '+curso1.curso.Python.valor; 
+            'ha sido Prematriculado a ' +curso1.curso.Python.nombre+'\n'+' Duración: '+curso1.curso.Python.duracion+'\n'+' Valor: '+curso1.curso.Python.valor; 
             break;
 
         default:

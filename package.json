@@ -1,0 +1,19 @@
+{
+  "name": "cursos",
+  "version": "1.0.0",
+  "description": "Entrega 1",
+  "main": "curso.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentinalenis/Cursos.git"
+  },
+  "author": "Valentina Lenis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valentinalenis/Cursos/issues"
+  },
+  "homepage": "https://github.com/valentinalenis/Cursos#readme"
+}
