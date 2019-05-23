@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/valentinalenis/Cursos/issues"
   },
-  "homepage": "https://github.com/valentinalenis/Cursos#readme"
+  "homepage": "https://github.com/valentinalenis/Cursos#readme",
+  "dependencies": {
+    "yargs": "^13.2.4"
+  }
 }
