@@ -1,3 +1,8 @@
+const express = require('express')
+const app = express()
+
+app.listen(3002)
+
 const curso1 = require ('./curso');
 
 const opciones = {
@@ -56,8 +61,13 @@ if(argv.estado == 'inscribir'){
     }
 
     crearArchivo(texto);
-
+    app.get('/', function(req,res){
+        res.send(texto)
+    })
 }else{
     console.log(curso1.curso);
+    app.get('/', function(req,res){
+        res.send(curso1.curso)
+    })
 }
 

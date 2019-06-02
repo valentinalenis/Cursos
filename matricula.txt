@@ -1,4 +1,4 @@
-El estudiante Valentina
+El estudiante Juan
 ha sido Prematriculado a Introduccón a Php
  Duración: 10
  Valor: 20
